@@ -1,0 +1,36 @@
+git init - to add .git into a directory
+dir - to see whats in the directory
+dir /a - to see all hidden files in the directory
+mkdir - to make a directory
+cd "name of folder" - to open a folder or to change directory
+copy con - to create a new file and then ctrl + Z and enter to save it
+git status - to see the uncommitted files in the folder
+git add . -  to add all thje files in directory to commiting area
+git add "name of file" - to add individual files
+git commit -m "message to display" -  commit the files to git and add a message 
+notepad "file names" - to open and edit file
+type "file name" - to display content of file
+git restore --staged . - to remove files from from committing area
+git restore --staged "file name" - to remove a particular file
+git log - to see the history
+del "names.txt" - to delete a file
+git reset "commit id" - to reset a file as it was or you deleted a file by mistake and then you want to get it back
+git stash - dont commit the files in the committing area but even lose it
+git stash pop - get the files from backstage to the committing area
+git stash clear - to clear the files in backgroud
+git remote add origin "url of your repositories" to link your repositories to your folder in PC
+git remote -v - to see the urls attached to a folder
+git push origin master - to add your changes to repositories (you can change branch from master)
+git clone "url from github" - to clone someone's else repositories from github
+git remote add upstream "url" - to add a upstream url (upstream means origin place you forked the repositories)
+git branch "name" - to create a new branch 
+git checkout "name" - to change from current branch to new branch
+git push origin master -f - forceful pull req to make changes
+git fetch --all --prune - to get all the new commits from the upstream
+git reset --hard upstream/main 
+git pull upstream main 
+git rebase -i (commit id)
+git reset --hard (commit id) to remove file (brute method)
+
+
+
